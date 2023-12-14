@@ -20,7 +20,7 @@ async function getData() {
         card.classList.add('col-lg-6')
         card.classList.add('col-xxl-3')
         card.innerHTML = `
-                <a href="/json-placeholder-queryString/posts.html?userId=${id}">
+                <a href="json-placeholder-queryString/posts.html?userId=${id}">
                     <div>
                         <div class="card">
                             <div class="card-body">
