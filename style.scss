@@ -6,7 +6,7 @@
     font-family: 'Roboto', sans-serif;
 }
 body{
-    background-color: #404040;
+    background-image: url(bg.jpg);
 }
 nav{
     .container{
@@ -81,6 +81,7 @@ nav{
         box-shadow: 0 4px 30px rgba(0, 0, 0, 0.6);
         background-color: #ffffff3f;
         backdrop-filter: blur(10px);
+        position: absolute;
     }
 }
 a{
