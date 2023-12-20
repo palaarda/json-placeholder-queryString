@@ -27,7 +27,7 @@ async function getPersonData(){
             </div>    `
     personParent.appendChild(card);
     });
-    if (id > 10){
+    if (id > 10 || id <= 0 || id == null){
         alert("Böyle Bir Kullanıcı Yok!");
         const manuelId= parseInt(prompt("Lütfen İd yi Doğru Belirtin."));
         window.location.href = 'posts.html?userId=' + manuelId;
